@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: Gyanesh1506/jenkins-argocd-app:1.0
+          image: gyan1506/jenkins-argocd-app:9
           ports:
             - containerPort: 80
           imagePullPolicy: Always
